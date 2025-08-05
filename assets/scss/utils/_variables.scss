@@ -298,6 +298,41 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
+$primary-97: #F1F4FD;
+$primary-90: #D2D9F9;
+$primary-80: #A4B4F3;
+$primary-70: #778EEE;
+$primary-60: #4A69E8;
+$primary-40: #1736B5;
+$primary-25: #0E2271;
+
+$secondary-90: #D7F4EC;
+$secondary-70: #87DEC5;
+$secondary-50: #36C99F;
+$secondary-35: #268C6F;
+
+$natural-95: #F0F3F5;
+$natural-90: #E0E5EB;
+$natural-85: #D1D9E1;
+$natural-75: #B2BFCC;
+$natural-60: #8599AD;
+$natural-50: #667F99;
+$natural-30: #3D4D5C;
+$natural-10: #141A1F;
+
+$success-90: #DEFCCF;
+$success-40: #47C20A;
+$success-30: #369108;
+
+$danger-90: #FFD0CC;
+$danger-70: #FF7467;
+$danger-45: #E51300;
+
+$warning-90: #FFEACC;
+$warning-48: #F58F00;
+$warning-35: #B26800;
+
+
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
@@ -310,6 +345,43 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
+  "primary-97": $primary-97,
+  "primary-90": $primary-90,
+  "primary-80": $primary-80,
+  "primary-70": $primary-70,
+  "primary-60": $primary-60,
+  "primary-40": $primary-40,
+  "primary-25": $primary-25,
+
+  "secondary-90": $secondary-90,
+  "secondary-70": $secondary-70,
+  "secondary-50": $secondary-50,
+  "secondary-35": $secondary-35,
+
+  "natural-95": $natural-95,
+  "natural-90": $natural-90,
+  "natural-85": $natural-85,
+  "natural-75": $natural-75,
+  "natural-60": $natural-60,
+  "natural-50": $natural-50,
+  "natural-30": $natural-30,
+  "natural-10": $natural-10,
+
+  "success-90": $success-90,
+  "success-40": $success-40,
+  "success-30": $success-30,
+
+  "danger-90": $danger-90,
+  "danger-70": $danger-70,
+  "danger-45": $danger-45,
+
+  "warning-90": $warning-90,
+  "warning-48": $warning-48,
+  "warning-35": $warning-35,
+
+  "black":      #141A1F,
+  "white":      #FCFCFD,
+
   "primary":    $primary,
   "secondary":  $secondary,
   "success":    $success,
