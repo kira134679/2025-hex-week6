@@ -332,6 +332,8 @@ $warning-90: #FFEACC;
 $warning-48: #F58F00;
 $warning-35: #B26800;
 
+$white: #FCFCFD;
+$black: #141A1F;
 
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
@@ -379,8 +381,8 @@ $theme-colors: (
   "warning-48": $warning-48,
   "warning-35": $warning-35,
 
-  // "black":      $black,
-  // "white":      $white,
+  "white":      $white,
+  "black":      $black,
 
   "primary":    $primary,
   "secondary":  $secondary,
@@ -389,10 +391,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   
-  "light":      #FCFCFD,
-  // "light":      $light,
-  "dark":       #141A1F
-  // "dark":       $dark
+  "light":      $light,
+  "dark":       $dark
 ) !default;
 // scss-docs-end theme-colors-map
 
