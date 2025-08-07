@@ -6,8 +6,7 @@
 // Color system
 
 // scss-docs-start gray-color-variables
-$white:    #FCFCFD !default;
-// $white:    #fff !default;
+$white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -17,8 +16,7 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #141A1F !default;
-// $black:    #000 !default;
+$black:    #000 !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -381,8 +379,8 @@ $theme-colors: (
   "warning-48": $warning-48,
   "warning-35": $warning-35,
 
-  "black":      $black,
-  "white":      $white,
+  // "black":      $black,
+  // "white":      $white,
 
   "primary":    $primary,
   "secondary":  $secondary,
@@ -390,8 +388,11 @@ $theme-colors: (
   "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  
+  "light":      #FCFCFD,
+  // "light":      $light,
+  "dark":       #141A1F
+  // "dark":       $dark
 ) !default;
 // scss-docs-end theme-colors-map
 
