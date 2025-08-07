@@ -5,6 +5,15 @@ $utilities: map-merge(
         map-get($utilities, 'font-size'),
         (
           responsive: true,
+          values: (
+            sm: 0.875rem,
+          ),
+        )
+      ),
+    'rounded': map-merge(
+        map-get($utilities, 'rounded'),
+        (
+          responsive: true,
         )
       ),
   )
