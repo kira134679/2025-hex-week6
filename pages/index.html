@@ -1,51 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>職旅 Workway</title>
   </head>
+
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/dog.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
+    <div class="py-7 py-md-9">
+      <div class="container mb-6">
+        <div class="hero">
+          <h1 class="h2 display-md-1 fw-bold mb-5 text-center">一起陪伴、探索<br />還有你那些未完成的夢</h1>
+          <div class="text-center d-md-flex justify-content-md-between">
+            <p class="text-natural-50 text-md-start fs-md-5 p-1 mb-4 mb-md-0">
+              自由工作很美，也很難。<br />我們用 1 對 1 陪伴，陪你從第一步開始，直到夢想變成日常
+            </p>
+            <button
+              type="button"
+              class="btn btn-secondary-50 rounded-md-2 d-inline-flex align-items-center btn-custom-lg fw-bold h4 fs-md-3 lh-sm"
+            >
+              開始你的職旅<span class="material-symbols-outlined ms-md-1 icon"> chevron_right </span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="container-fluid">
+        <div class="d-md-none">
+          <img src="/assets/images/index/hero-4.png" alt="hero-4" />
+        </div>
+        <div class="d-none d-md-flex row row-cols-3 gx-5">
+          <div class="col d-flex align-items-stretch"><img src="/assets/images/index/hero-1.png" alt="hero-1" /></div>
+          <div class="col">
+            <img src="/assets/images/index/hero-2.png" alt="hero-2" class="mb-5" />
+            <img src="/assets/images/index/hero-3.png" alt="hero-3" />
           </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+          <div class="col d-flex align-items-stretch"><img src="/assets/images/index/hero-4.png" alt="hero-4" /></div>
         </div>
       </div>
     </div>
