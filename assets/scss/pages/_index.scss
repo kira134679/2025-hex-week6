@@ -20,3 +20,37 @@
     padding: 16px 12px 16px 20px;
   }
 }
+
+.logo-icon {
+  width: 48px;
+
+  @include media-breakpoint-up(md) {
+    width: 96px;
+  }
+}
+
+.story-card-offset {
+  margin-right: calc(-50vw + 50% + 32px);
+}
+
+.story-card-row {
+  margin-left: -8px;
+  margin-right: -8px;
+
+  @include media-breakpoint-up(md) {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}
+
+.story-card-col {
+  min-width: 336px; // 8 + 320 + 8
+  padding-left: 8px;
+  padding-right: 8px;
+
+  @include media-breakpoint-up(md) {
+    min-width: 424px; // 12 + 400 + 12
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
