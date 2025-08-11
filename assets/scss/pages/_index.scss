@@ -54,3 +54,22 @@
     padding-right: 12px;
   }
 }
+
+.rounded-top-end-3 {
+  @include border-top-end-radius($border-radius-sm);
+}
+
+.bg-choose-convex {
+  position: relative;
+}
+
+.bg-choose-convex::before {
+  position: absolute;
+  content: '';
+  background-color: $natural-95;
+  width: 100%;
+  height: 200px;
+  top: -200px;
+  left: 0;
+  z-index: -1;
+}
