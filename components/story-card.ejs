@@ -1,0 +1,14 @@
+<div class="card shadow rounded-md-3 position-relative">
+  <span class="badge position-absolute story-badge-offset px-4 py-2 fs-sm fs-md-6 text-white bg-primary-60"
+    ><%= badgeText %></span
+  >
+  <img src="<%= imgPath %>" class="card-img-top" alt="<%= jobtitle + '-' + person %>" />
+  <div class="card-body pb-5">
+    <h4 class="card-title fw-bold mb-4"><%= title %></h4>
+    <p class="card-subtitle fs-sm mb-4"><%= subtitle %></p>
+    <p class="fs-sm mt-auto">
+      <b class="lh-sm me-2"><%= jobtitle %></b>
+      <span class="border-1 border-start border-natural-85 ps-2"><%= person %></span>
+    </p>
+  </div>
+</div>
