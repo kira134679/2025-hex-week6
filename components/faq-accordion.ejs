@@ -1,0 +1,29 @@
+<div class="accordion" id="accordion-<%= htmlId %>">
+  <div class="accordion-item shadow border-1 border-natural-85 border-dashed">
+    <h3 class="accordion-header">
+      <button
+        class="accordion-button align-items-start fw-bold fs-md-5 collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse-<%= htmlId %>"
+        aria-expanded="<%= isShow ? true : false %>"
+        aria-controls="collapse-<%= htmlId %>"
+      >
+        <span class="fs-5 fs-md-4">Q.</span>
+        <span class="px-2"><%= ques %></span>
+      </button>
+    </h3>
+    <div
+      id="collapse-<%= htmlId %>"
+      class="accordion-collapse collapse <%= isShow ? 'show' : '' %>"
+      data-bs-parent="#accordion-<%= htmlId %>"
+    >
+      <div class="accordion-body d-flex pt-0">
+        <div class="d-flex border-top border-natural-85 border-top-dashed pt-4">
+          <span class="fw-bold fs-5 fs-md-4 lh-sm text-primary-60 me-2">A.</span>
+          <p class="fs-sm"><%= ans %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
