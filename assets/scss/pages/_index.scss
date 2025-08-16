@@ -7,6 +7,17 @@
   margin: 0 auto;
 }
 
+.hero-gradient-effect {
+  position: absolute;
+  top: 40px;
+  height: 560px;
+  z-index: -1;
+
+  @include media-breakpoint-up(md) {
+    height: 800px;
+  }
+}
+
 .display-md-1 {
   @include media-breakpoint-up(md) {
     font-size: 5rem;
