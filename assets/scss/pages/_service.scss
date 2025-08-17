@@ -1,0 +1,30 @@
+.bg-service-banner {
+  background-image: url(/assets/images/service/banner-bg.png);
+  background-repeat: repeat;
+  background-position: 50%;
+
+  @media (min-width: 1024px) {
+    background-image: url(/assets/images/service/banner-bg-pc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.service-banner-person {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+    position: absolute;
+    bottom: -88px;
+    right: 128px;
+  }
+}
+
+.service-intro-linebreak {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: inline;
+  }
+}
