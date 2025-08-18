@@ -28,3 +28,30 @@
     display: inline;
   }
 }
+
+.hl-hot {
+  // highlight for HOT plan
+  border: 2px solid $secondary-50;
+  position: relative;
+}
+
+.hl-hot::before {
+  position: absolute;
+  content: 'HOT';
+  top: -2px; // compensation for border-width
+  left: -2px; // compensation for border-width
+  @extend .py-2, .px-4;
+  @extend .fw-bold, .fs-sm, .lh-sm;
+  @extend .bg-secondary-50;
+  @extend .rounded-top-start-2, .rounded-bottom-end-1;
+
+  @include media-breakpoint-up(md) {
+    // not allowed to extend selectors that appear outside its at-rule.
+    // see: https://sass-lang.com/documentation/at-rules/extend/#extend-in-media
+    border-top-left-radius: $border-radius-lg;
+  }
+}
+
+.plan-img-width {
+  width: 300px;
+}
