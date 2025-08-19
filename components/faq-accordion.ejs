@@ -2,7 +2,7 @@
   <div class="accordion-item shadow border-1 border-natural-85 border-dashed">
     <h3 class="accordion-header">
       <button
-        class="accordion-button align-items-start fw-bold fs-md-5 collapsed"
+        class="accordion-button align-items-start fw-bold fs-md-5 <%= !isShow ? 'collapsed' : '' %>"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#collapse-<%= htmlId %>"
